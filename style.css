@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: orange;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.kotak{
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    background-color: black;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+  
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+#joke{
+    text-align: center;
+    width:300px ;
+    color: white;
+    font-weight: bold;
+ 
+}
+button{
+    cursor: pointer;
+    border: none;
+    font-size:20px;
+    font-weight: bold;
+    background-color: orange;   
+    width:  250px;
+    height: 60px;
+    margin-bottom: 50px;
+}
